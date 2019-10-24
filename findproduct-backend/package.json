@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js",
-    "build": "sucrase ./src -d ./dist --transforms imports"
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -14,13 +15,17 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^24.0.19",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
     "nodemon": "^1.19.4",
     "prettier": "^1.18.2",
-    "sucrase": "^3.10.1"
+    "sucrase": "^3.10.1",
+    "supertest": "^4.0.2"
   }
 }
