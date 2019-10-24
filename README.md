@@ -17,20 +17,18 @@ This project requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Clone the project.
 ```sh
-$ git clone http://localhost/
+$ git clone https://github.com/jilvanx/findproduct.git
 ```
 
 Install the dependencies and start the frontend.
 ```sh
-$ cd frontend
-$ cp .env.example .env
+$ cd findproduct-frontend
 $ yarn install
 $ yarn start 
 ```
 Install the dependencies and start the frontend.
 ```sh
-$ cd backend
-$ cp .env.example .env
+$ cd findproduct-backend
 $ yarn install
 $ yarn dev 
 ```
