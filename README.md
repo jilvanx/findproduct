@@ -26,11 +26,16 @@ $ cd findproduct-frontend
 $ yarn install
 $ yarn start 
 ```
-Install the dependencies and start the frontend.
+Install the dependencies and start the backend.
 ```sh
 $ cd findproduct-backend
 $ yarn install
 $ yarn dev 
+```
+To run test:
+```sh
+$ cd findproduct-backend
+$ yarn test
 ```
 License
 ----
